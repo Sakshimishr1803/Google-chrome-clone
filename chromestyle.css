@@ -1,0 +1,321 @@
+*{
+    background-color: white;
+}
+.navbaar{
+    display: flex;
+    height:3rem;
+    width: 100%;
+    padding: 8px;
+    justify-content: right;
+    align-items: center;
+}
+.navbaar img{
+    height:38px;
+    width:38px;
+    padding-right: 15px;
+    border: 2px white solid;
+    border-radius: 45%;
+}
+.navbaar a{
+    text-decoration: none;
+    padding-right: 15px;
+    color: rgba(36, 36, 36, 0.785);
+}
+.navbaar a:hover{
+    text-decoration: underline rgba(36, 36, 36, 0.785);
+}
+.navbaar i{
+    padding-right: 15px;
+    color: rgba(36, 36, 36, 0.785);;
+    font-size: large;
+}
+.container{
+    width:100%;
+    height: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 25%;
+    height: 130px;
+    margin-bottom: 35px;
+}
+.search-baar{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#search-google{
+    padding:01px 20px 01px 20px;
+    height: 42px;
+    width: 455px;
+    border: 2px solid rgb(139, 139, 139);
+    border-radius: 25px;
+}
+.mic{
+    width: 26px;
+    height:15px;
+    font-size:20px;
+    padding-left:10px;
+    color: rgb(139, 139, 139);
+}
+.lens{
+    width: 26px;
+    height:15px;
+    font-size:20px;
+    padding-left:10px;
+    color:rgb(139, 139, 139);
+}
+.icon-search{
+    width: 26px;
+    height:15px;
+    font-size:20px;
+    padding-right:10px;
+    color:rgb(139, 139, 139);
+}
+.shortcut{
+    width:70%;
+    margin-left:150px;
+    margin-right:100px;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+.box1 img{
+    width: 95%;
+    height: 50%;
+    align-items:center;
+    justify-content:center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+    /* border:2px black solid; */
+}
+
+.box2{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box2 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box3{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box3 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box4{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box4 img{
+    width: 75%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box5{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box5 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box6{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box6 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box7{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box7 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.box8{
+    width:115px;
+    height: 115px;
+    color: black;
+    margin: 30px;
+}
+
+.box8 img{
+    width: 95%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1px;
+    border-radius: 20px;
+}
+.shortcut:first-child{
+    align-self: center;
+}
+h4{
+    color:#000;
+    font-weight: 100;
+    font-size: small;
+    text-align: center;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+button{
+    width: 15%;
+    height: 30px;
+    background-color: rgb(158,193,246);
+    border: 2px rgb(172, 172, 240);
+    border-radius: 30px;
+    margin-bottom: 2px;
+}
+button a{
+    text-decoration: none;
+    background-color:rgb(158, 193, 246) ;
+}
+a{
+    color:rgb(45, 43, 43);
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline solid;
+}
+.box1:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box2:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+.box3:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box4:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box5:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box6:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box7:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+
+.box8:hover{
+    box-shadow:3px 3px 3px 3px gray ;
+    border-radius: 20px;
+}
+.mic:hover{
+    color: #000;
+}
+.lens:hover{
+    color:#000
+}
+.icon-search:hover{
+    color: #000;
+}
+.search-baar:hover{
+    color: #000;
+}
+button:hover{
+    box-shadow: 3px 3px 3px 3px gray;
+}
+.navbaar i:hover{
+    color: #000;
+}
